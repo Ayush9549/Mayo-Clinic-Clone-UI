@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Mayo Clinic - Mayo Clinic</title>
+		<link rel="stylesheet" type="text/css" href="./assets/css/web.css">
+		<link rel="icon" type="text/css" href="./assets/img/logo.svg">
+	</head>
+	<body>
+		<div class="alrt" onclick="popupNews()"><img src="./assets/img/!.svg"> <a>COVID-19: Advice, updates and vaccine options<span class="arrow"><img class="arro" src="./assets/img/arrow.svg"></span><br>
+	</a>We are open for safe in-person care.<br>
+	Learn more: Our COVID-19 patient and visitor guidelines, plus trusted health information<br>
+	Latest on COVID-19 vaccination by site: Arizona, Florida, Rochester and MCHS
+</div>
+<div class="header">
+	<div class="logo"><img src="./assets/img/logo.svg"></div>
+	<div class="search-btn">
+		<input class="searchinput" id="search" type="text" name="name" placeholder="Search Mayo Clinic">
+		<img onclick="search(id)" src="./assets/img/search.png">
+	</div>
+	<ul class="rules">
+		<li>Request an Appointment</li>
+		<li>Find a Doctor</li>
+		<li>Find a Job</li>
+		<li>Give Now</li>
+	</ul>
+	<ul class="top-right">
+		<li><img src="./assets/img/profile.svg"><a>Log in to Patient Account</a></li>
+		<li><img class="wb" src="./assets/img/world.png">
+			<select>
+				<option>English</option>
+				<option>Español</option>
+				<option>Português</option>
+				<option>简体中文</option>
+				<option>العربية</option>
+			</select>
+		</li>
+		<li class="tt"><img src="./assets/img/twitter.png"></li>
+		<li class="fb"><img src="./assets/img/fb.png"></li>
+		<li class="pt"><img src="./assets/img/pinterest.svg"></li>
+		<li class="yt"><img src="./assets/img/youtube.png"></li>
+	</ul>
+</div>
+<div class="all-facility">
+	<div class="facility facilty" onclick="popupfacility(0)">
+		<div class="size">Care at Mayo Clinic</div>
+		<div>Appointments</div>
+		<div>Locations</div>
+		<div>Patient & Visitor Guide</div>
+		<div>International Services</div>
+		<div>Medical Departments & Centers</div>
+		<div>Doctors & Medical Staff</div>
+		<div>Patient Online Services</div>
+		<div>Billing & Insurance</div>
+		<div>Clinical Trials</div>
+		<div>International Business Collaborations</div>
+		<div>About Mayo Clinic</div>
+		<div>Contact Us</div>
+	</div>
+	<div class="facility1 facilty" onclick="popupfacility(1)">
+		<div class="size">Health Information</div>
+		<div>Diseases & Conditions A-Z</div>
+		<div>Symptoms A-Z</div>
+		<div>Tests & Procedures A-Z</div>
+		<div>Drugs & Supplements A-Z</div>
+		<div>Health Books</div>
+		<div>Healthy Living Program</div>
+		<div>Mayo Clinic Health Letter</div>
+		<div>Mayo Clinic Voice Apps</div>
+		<div>Healthy Lifestyle</div>
+	</div>
+	<div class="facility2 facilty" onclick="popupfacility(2)">
+		<div class="size">For Medical Professionals</div>
+		<div>Provider Relations</div>
+		<div>CareLink Online Referrals</div>
+		<div>Continuing Medical Education</div>
+		<div>Mayo Clinic Laboratories</div>
+		<div>AskMayoExpert</div>
+		<div>Video Center</div>
+		<div>Journals & Publications</div>
+	</div>
+	<div class="facility3 facilty" onclick="popupfacility(3)">
+		<div class="size">Research</div>
+		<div>Research Faculty</div>
+		<div>Laboratories</div>
+		<div>Core Facilities</div>
+		<div>Centers & Programs</div>
+		<div>Departments & Divisions</div>
+		<div>Clinical Trials</div>
+		<div>Institutional Review Board</div>
+		<div>Postdoctoral Fellowships</div>
+		<div>Training Grant Programs</div>
+	</div>
+	<div class="facility4 facilty" onclick="popupfacility(4)">
+		<div class="size">College of Medicine & Science</div>
+		<div>Mayo Clinic Graduate School of Biomedical Sciences<br><br></div>
+		<div>Mayo Clinic Alix School of Medicine<br><br></div>
+		<div>Mayo Clinic School of Continuous Professional Development<br><br></div>
+		<div>Mayo Clinic School ofGraduate Medical Education<br><br></div>
+		<div>Mayo Clinic School of Health Sciences<br><br></div>
+	</div>
+	<div class="facility5 facilty" onclick="popupfacility(5)">
+		<div class="size">Giving to Mayo Clinic</div>
+		<div>Give Now</div>
+		<div>Philanthropy in Action</div>
+		<div>Frequently Asked Questions</div>
+		<div>Contact Us to Give	</div>
+	</div>
+</div>
+<img class="mask-girl" src="./assets/img/mask-girl.jpg">
+<ul class="rules1">
+	<li>Request an Appointment<span>&#8594;</span></li>
+	<li>Find a Doctor<span>&#8594;</span></li>
+	<li>Patient & Visitor Guide<span>&#8594;</span></li>
+	<li>Contact Us<span>&#8594;</span></li>
+	<li class="bb">COVID-19 vaccine & information<span>&#8594;</span></li>
+</ul>
+<h2>COVID-19 <a>Vaccine</a> Information</h2>
+
+<div class="container" id="container">
+	<img onclick="prev()" class="pic1" src="./assets/img/arrow.svg">
+	<div class="box1">
+		<div class="headding"> Vaccination options for Mayo Clinic patients</div>
+		<div class="content"> COVID-19 vaccination options and guidelines vary widely by location<br> and may change over time. See the latest information<br> specific to Mayo Clinic campuses:</div>
+		<ul>
+			<li>Mayo Clinic Health System</li>
+			<li>Rochester</li>
+			<li>Arizona</li>
+			<li>Florida</li>
+		</ul>
+	</div>
+	<div class="box1">
+		<div class="headding"> Not a Mayo Clinic patient?</div>
+		<div class="content">If you're not a Mayo Clinic patient, check your public<br>health department's website for the most complete<br> information.</div>
+		<select>
+			<option>Choose a state or territory</option>
+			<option>Alabama</option>
+			<option>Alaska</option>
+			<option>American Samoa</option>
+			<option>Arkansas</option>
+			<option>Arizona</option>
+			<option>California</option>
+			<option>Colorado</option>
+			<option>Connecticut</option>
+			<option>Delaware</option>
+			<option>District of Columbia</option>
+			<option>Florida</option>
+			<option>Georgia</option>
+			<option>Guam</option>
+			<option>Hawaii</option>
+			<option>Idaho</option>
+			<option>Indiana</option>
+			<option>Iowa</option>
+			<option>Kansas</option>
+			<option>Kentucky</option>
+			<option>Louisiana</option>
+		</select>
+	</div>
+	<img onclick="next()" class="pic2" src="./assets/img/arrow.svg">
+</div>
+
+<div class="container1"><h2>Find Dise<a>ases & C</a>onditions</h2>
+<div class="disecondi">
+	<div class="box1">
+		<h3>Find a disease or condition by its first letter</h3>
+		<ul class="abcd">
+			<li>A</li>
+			<li>B</li>
+			<li>C</li>
+			<li>D</li>
+			<li>E</li>
+			<li>F</li>
+			<li>G</li>
+			<li>H</li>
+			<li>I</li>
+			<li>J</li>
+			<li>K</li>
+			<li>L</li>
+			<li>M</li>
+			<li>N</li>
+			<li>O</li>
+			<li>P</li>
+			<li>Q</li>
+			<li>R</li>
+			<li>S</li>
+			<li>T</li>
+			<li>U</li>
+			<li>V</li>
+			<li>W</li>
+			<li>X</li>
+			<li>Y</li>
+			<li>Z</li>
+			<li>#</li>
+		</ul>
+		<h4>Check your symptoms to find a possible cause</h4>
+		<a class="btn">Try the Symptom Checker</a>
+	</div>
+	<div class="box2">
+		<ul>Featured topics
+			<li>Bone marrow transplant</li>
+			<li>Brain aneurysm</li>
+			<li>Brain tumor</li>
+			<li>Breast cancer</li>
+			<li>Colon cancer</li>
+			<li>Congenital heart disease</li>
+		</ul>
+		
+	</div>
+	<div class="box3">
+		<ul>
+			<li>Glioma</li>
+			<li>Heart arrhythmia</li>
+			<li>Heart valve disease</li>
+			<li>Living donor transplant</li>
+			<li>Lung transplant</li>
+			<li>Rectal cancer</li>
+		</ul>
+		<h5>See More Diseases and Conditions</h5>
+	</div>
+</div>
+</div>
+<div class="footer"></div>
+<script type="text/javascript" src="./assets/js/hospital.js"></script>
+</body>
+</html>

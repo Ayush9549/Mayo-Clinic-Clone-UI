@@ -1,0 +1,770 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+body,html
+{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	font-family:  ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+
+.alrt
+{
+	width: 85.2%;
+	height: 35px;
+	overflow: hidden;
+	line-height: 40px;
+	cursor: pointer;
+	padding-bottom: 5px;
+	background: rgb(255, 200, 69);
+	padding: 5px 0px 10px 200px;
+}
+
+.arrow
+{
+	margin-left: 600px;
+	font-weight: bold;
+}
+
+.arrow img
+{
+	transform: rotate(270deg);
+
+}
+
+.alrt a
+{
+	margin-left: 40px;
+}
+
+.alrt img
+{
+	width: 30px;
+	background: rgb(255, 200, 69);
+	height: 30px;
+	position: absolute;
+	fill: yellow;
+	margin-top: 5px;
+
+	margin-right: 30px;
+}
+
+.header
+{
+	/*background: red;*/
+	width: 98.5%;
+	padding: 20px 10px 0 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo
+{
+	width: 100px;
+	height: 100px;
+}
+
+.logo img
+{
+	width: 85px;
+	height: 85px;
+	cursor: pointer;
+}
+
+.search-btn
+{
+	width: 26%;
+	height: 50px;
+	color: lightgray;
+	font-size: 17px;
+	letter-spacing: 1px;
+	border-radius: 7px;
+	box-shadow: inset 3px 3px 7px rgba(0, 0, 0, 0.3),inset -3px -3px 7px rgba(0, 0, 0, 0.0);
+}
+
+.searchinput
+{
+	width: 100%;
+	height: 100%;
+	border: 1px solid gray;
+	border-radius: 7px;
+	font-size: 17px;
+	background: rgb(250, 250, 249);
+	padding-left: 25px;
+	position: relative;
+
+	/*box-shadow: inset 3px 3px 7px rgba(0, 0, 0, 0.3),inset -3px -3px 7px rgba(0, 0, 0, 0.0);*/
+}
+
+.search-btn img 
+{
+	width: 25px;
+	float: right;
+	cursor: pointer;
+	transform: rotate(90deg);
+	padding: 40px 0px 3px 0;
+	/*transform: rotate(45deg);*/
+	margin: -59px 0 0 355px;
+	position: absolute;
+	height: 23px;
+}
+
+.searchinput:focus
+{
+	outline: none;
+}
+
+.text button
+{
+	width: 40px;
+	height: 20px;
+}
+
+.rules
+{
+	list-style: none;
+	cursor: pointer;
+	line-height: 20px;
+	color: rgb(84, 88, 90);
+}
+
+.rules li:hover
+{
+	text-decoration: underline;
+}
+
+.top-right
+{
+	/*width: 190px;*/
+	/*height: 100px;*/
+	/*vertical-align: top;*/
+	line-height: 10px;
+	/*display: inline-block;*/
+	color: rgb(84, 88, 90);
+	/*margin: 5px 0 0 10px;*/
+	list-style: none;
+}
+
+.top-right select
+{
+	width: 175px;
+	height: 30px;
+	margin-left: -40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 25px;
+	position: relative;
+	cursor: pointer;
+	border: 0.1px solid rgba(0, 0, 0, 0.2) ;
+}
+
+.top-right select:focus
+{
+	outline: none;
+}
+
+.top-right select:hover
+{
+	text-decoration: underline;
+
+}
+
+.top-right img
+{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	cursor: pointer;
+	margin: -5px 10px 0 -40px;
+}
+
+.top-right .wb
+{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	z-index: 2;
+	margin-left: -35px;
+	margin-top: 15px;
+}
+
+.top-right option select
+{
+	color: rgb(84, 88, 90);
+}
+
+.top-right option:focus
+{
+	outline: none;
+}
+
+.top-right li a
+{
+	margin: -10px 0 0 -10px;
+	/*background: red;*/
+	cursor: pointer;
+	position: relative;
+}
+
+.top-right li a:hover
+{
+	text-decoration: underline;
+}
+
+.tt
+{
+	display: inline-block;
+	cursor: pointer;
+	margin-top: -50px;
+}
+
+.fb
+{
+	display: inline-block;
+	margin-left: 30px;
+	cursor: pointer;
+}
+
+.pt
+{
+	display: inline-block;
+	margin-left: 30px;
+	cursor: pointer;
+}
+
+.yt
+{
+	display: inline-block;
+	margin-left: 30px;
+	cursor: pointer;
+}
+
+.all-facility
+{
+	width: 100%;
+	position: absolute;
+	display: flex;
+}
+
+.facility
+{
+	width: 15%;
+	height: 35px;
+	overflow: hidden;
+	color: rgb(84, 88, 90);
+	margin-left: 20px;
+	line-height: 35px;
+	display: inline-block;
+	padding: 10px 10px;
+	font-size: 15px;
+	margin-left: 20px;
+}
+
+.facility div
+{
+	margin-left: 10px;
+	padding-left: 10px;
+}
+
+.facility .size
+{
+	padding: 0px 10px;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+}
+
+.facility1
+{
+	width: 15%;
+	height: 30px;
+	overflow: hidden;
+	vertical-align: top;
+	cursor: pointer;
+	font-size: 15px;
+	margin-left: -20px;
+	display: inline-block;
+	color: rgb(84, 88, 90);
+	line-height: 35px;
+	padding: 10px 10px;
+}
+
+.facility1 div
+{
+	margin-left: 10px;
+	padding-left: 10px;
+}
+
+
+.facility1 .size
+{
+	padding: 0px 10px;
+	border-right: 1px solid gray;
+}
+
+.facility2
+{
+	width: 15%;
+	height: 30px;
+	font-size: 15px;
+	overflow: hidden;
+	cursor: pointer;
+	vertical-align: top;
+	margin-left: -20px;
+	color: rgb(84, 88, 90);
+	line-height: 35px;
+	padding: 10px 10px;
+	display: inline-block;
+}
+
+.facility2 div
+{
+	margin-left: 10px;
+	padding-left: 10px;
+}
+
+
+.facility2 .size
+{
+	padding: 0px 10px;
+	border-right: 1px solid gray;
+}
+
+.facility3
+{
+	width: 15%;
+	height: 30px;
+	font-size: 15px;
+	overflow: hidden;
+	cursor: pointer;
+	margin-left: -20px;
+	color: rgb(84, 88, 90);
+	line-height: 35px;
+	vertical-align: top;
+	padding: 10px 10px;
+	display: inline-block;
+}
+
+.facility3 div
+{
+	margin-left: 10px;
+	padding-left: 10px;
+}
+
+
+.facility3 .size
+{
+	padding: 0px 10px;
+	border-right: 1px solid gray;
+}
+
+
+.facility4
+{
+	width: 15%;
+	height: 30px;
+	font-size: 15px;
+	margin-left: -20px;
+	overflow: hidden;
+	vertical-align: top;
+	color: rgb(84, 88, 90);
+	padding: 10px 20px;
+	display: inline-block;
+}
+
+.facility4 div
+{
+	margin-left: 10px;
+	padding-left: 10px;
+}
+
+
+.facility4 .size
+{
+	padding: 6px 10px;
+	padding-bottom: 30px;
+	/*height: 40px;*/
+	border-right: 1px solid gray;
+}
+
+.facility:hover,.facility1:hover,.facility2:hover,.facility3:hover,.facility4:hover,.facility5:hover
+{
+	width: 15%;
+	cursor: pointer;
+	height: auto;
+	background: rgb(245, 245, 243);
+}
+
+.facility div:hover,.facility1 div:hover,.facility2 div:hover,.facility3 div:hover,.facility4 div:hover,.facility5 div:hover
+{
+	text-decoration: underline;
+	color: blue;
+
+}
+
+.facility5
+{
+	width: 15%;
+	height: 30px;
+	font-size: 15px;
+	overflow: hidden;
+	vertical-align: top;
+	margin-left: -20px;
+	cursor: pointer;
+	color: rgb(84, 88, 90);
+	line-height: 35px;
+	padding: 10px 10px;
+	display: inline-block;
+}
+
+.facility5 div
+{
+	margin-left: 10px;
+	padding-left: 10px;
+}
+
+
+.facility5 .size
+{
+	padding: 0px 10px;
+	border-right: 1px solid gray;
+}
+
+.mask-girl
+{
+	width: 580px;
+	height: 500px;
+	margin-top: 100px;
+	display: block;
+	display: inline-block;
+	margin-left: 15px;
+}
+
+.rules1
+{
+	display: inline-block;
+	vertical-align: top;
+	line-height: 50px;
+	list-style: none;
+	width: 620px;
+	font-size: 20px;
+	letter-spacing: 1px;
+	margin: 145px 0 0 20px;
+}
+
+.rules1 li
+{
+	border-top: 1px solid;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	cursor: pointer;
+}
+
+.bb
+{
+	border-bottom: 1px solid;
+}
+
+.rules1 li:hover
+{
+	text-decoration: underline;
+}
+
+.rules1 li span
+{
+	float: right;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+h2
+{
+	font-weight: 500;
+	text-align: center;
+}
+
+h2 a
+{
+	/*border-bottom: 3px solid blue;*/
+	/*padding-bottom: 10px;*/
+	/*text-underline-position: 10px;*/
+}
+
+.container
+{
+	/*background: red;*/
+	width: 100%;
+	height: 400px;
+	/*display: flex;*/
+}
+
+.container .box1
+{
+	width: 80%;
+	height: 220px;
+	padding: 30px 20px 30px 20px;
+	border: 1px solid gray;
+	margin-left: 110px;
+	text-align: center;
+	position: absolute;
+	/*box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.1), -7px -7px 7px rgba(0, 0, 0, 0.1);*/
+}
+
+.headding
+{
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+}
+
+.content
+{
+	letter-spacing: 1px;
+	font-size: 17px;
+}
+
+.container .box1 ul
+{
+	list-style: none;
+	line-height: 35px;
+	letter-spacing: 1px;
+}
+
+.container .box1 ul li
+{
+	color: blue;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.container .box1 ul li:hover
+{
+	text-decoration: none;
+}
+
+.container .box1:nth-child(2)
+{
+	width: 80%;
+	height: 220px;
+	margin: 0px 0 0 110px;
+	/*padding: 30px 20px;*/
+	letter-spacing: 1px;
+	/*display: none;*/
+	border: 1px solid gray;
+	/*box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.1), -7px -7px 7px rgba(0, 0, 0, 0.1);*/
+}
+
+.container select
+{
+	margin-top: 30px;
+	width: 370px;
+	cursor: pointer;
+	font-size: 20px;
+	height: 50px;
+}
+
+.container .box2 select:focus
+{
+	outline: none;
+	border: dashed;
+}
+
+.container1
+{
+	background: rgb(235, 240, 248);
+	width: 100%;
+	height: 600px;
+}
+
+.container .pic1
+{
+	position: absolute;
+	margin-left: 40px;
+	margin-top: 120px;
+	width: 30px;
+	cursor: pointer;
+}
+
+.container .pic2
+{
+	position: absolute;
+	margin-left: 1270px;
+	margin-top: 120px;
+	transform: rotate(180deg);
+	width: 30px;
+	cursor: pointer;
+}
+
+
+.disecondi
+{
+	display: flex;
+	justify-content: space-between;
+	padding-left: 10px;
+}
+
+.container1 .box1
+{
+	width: 590px;
+	height: 350px;
+	/*padding-bottom: 20px;*/
+}
+
+h2
+{
+	padding-top: 100px;
+	font-size: 30px;
+	flex-direction: row;
+}
+
+h2 a
+{
+	border-bottom: 2px solid blue;
+	padding-bottom: 20px;
+}
+
+h3
+{
+	margin-top: 100px;
+	margin-left: 40px;
+	font-weight: normal;
+	font-size: 20px;
+}
+
+.abcd
+{
+	list-style: none;
+	margin-top: 30px;
+	margin-left: 40px;
+}
+
+.abcd li
+{
+	display: inline-block;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	width: 30px;
+	height: 30px;
+	text-decoration: underline;
+	color: blue;
+	text-align: center;
+	padding-top: 10px;
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+
+.abcd li:hover
+{
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+h4
+{
+	margin-left: 40px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.btn
+{
+	margin-left: 40px;
+	padding: 20px 20px;
+	border-radius: 40px;
+	width: 100px;
+	font-size: 20px;
+	color: #fff;
+	cursor: pointer;
+	height: 30px;
+	background: rgb(0, 61, 165);
+}
+
+.btn:hover
+{
+	text-decoration: underline;
+}
+
+.container1 .box2
+{
+	/*background: red;*/
+	margin-top: 80px;
+}
+
+.container1 .box2 ul
+{
+	list-style: none;
+	font-size: 20px;
+}
+
+.container1 .box2 ul li
+{
+	line-height: 30px;
+	font-size: 20px;
+	color: blue;
+	cursor: pointer;
+}
+
+.container1 .box2 ul li:hover
+{
+	transform: scaleX(1.1);
+}
+
+.container1 .box3
+{
+	/*background: gray;*/
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 105px;
+	margin-left: 70px;
+}
+
+.container1 .box3 ul
+{
+	list-style: none;
+	
+}
+
+.container1 .box3 ul li
+{
+	line-height: 30px;
+	font-size: 20px;
+	color: blue;
+	cursor: pointer;
+}
+
+.container1 .box3 ul li:hover
+{
+	transform: scaleX(1.1);
+}
+
+h5
+{
+	margin-left: -300px;
+	margin-top: 45px;
+	padding: 20px 20px;
+	border-radius: 40px;
+	font-size: 20px;
+	font-weight: normal;
+	width: 320px;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	height: 30px;
+	background: rgb(0, 61, 165);
+}
+
+h5:hover
+{
+	text-decoration: underline;
+}
+
